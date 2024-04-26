@@ -1,0 +1,949 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Sacramento&family=Yeseva+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Sacramento&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Original+Surfer&family=Rubik+Dirt&display=swap" rel="stylesheet">
+</head>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<link rel="stylesheet" href="@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Original+Surfer&family=Rubik+Dirt&display=swap')">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+<style>
+
+ .oi{
+        width:  1370px;
+        height: 678px;
+        text-align: center;
+       margin-left: 30px;
+        border-radius: 7px;box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+        
+        
+        margin-top: 12px;
+        
+    }
+    .a1{
+margin-top: 10px;        
+  font-weight: 80px;
+  border: 2px solid white;
+  width: 1400px;
+  border-radius: 30px;text-shadow: 0 0 25px rgb(255, 255, 255);
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 80px;      
+  padding: 7px;  
+  font-family: "Cinzel", serif;
+
+  animation: fadeInAnimation ease-in 4s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+            
+    }
+    @keyframes fadeInAnimation {
+            0% {
+                color: rgb(255, 255, 255);
+                opacity: 0;
+            }
+
+            25%{
+                color: rgb(0, 0, 0);
+                opacity: 3;
+
+            }
+            50%{
+                color: #f9ffe0;
+                opacity: 7;
+                overflow: hidden;
+            }
+
+            100% {
+                color: rgb(255, 221, 221);
+                opacity: 10;
+            }
+        }
+        .a2{
+            font-family: "Archivo Black", sans-serif;
+    font-size: 61px; /* Adjust the font size as needed */
+    font-weight: bold; /* Adjust the font weight as needed */
+    color: #ff0000; /* Adjust the color as needed */
+    text-align: center; /* Align the text to center */
+    text-transform: uppercase; /* Convert the text to uppercase */
+    letter-spacing: 50px; /* Adjust the letter spacing as needed */
+}
+    .a2 img{
+      border: 3px solid rgb(255, 251, 244);
+      border-radius: 20px;
+      width: 1300px;
+    }
+    .a2:hover img {
+      opacity: 1;
+	-webkit-animation: flash 3.5s;
+	animation: flash 4.5s;
+    }      
+    @-webkit-keyframes flash {
+	0% {
+		opacity: 6;
+	}
+  50%{
+    opacity: 1;
+  }
+	100% {
+		opacity:  0;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+  50%{
+    opacity: 5;
+  }
+	100% {
+		opacity: 10;
+	}
+}
+    .bb{
+        width:  1370px;
+        height: 678px;
+        text-align: center;
+       margin-left: 30px;
+        border-radius: 7px;
+    
+        
+        margin-top: 12px;
+    }
+ 
+.material-symbols-outlined {
+  font-size: 70px;
+  margin-bottom: 10px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-align: center;
+
+  text-transform: uppercase;
+  letter-spacing: 50px;
+}
+.e{ height: 20px;
+  margin-top: 120px;
+  margin-right: 100px;
+    background-color: rgba(0, 245, 168, 0.694);
+
+}
+.ee{
+    height: 20px; 
+    margin-right: 250px;
+
+    margin-top: 20px; 
+    background-color:  #FFC107;
+}
+.r{ height: 20px;
+  margin-left: 100px;
+    background-color: red;
+
+}
+.rr{
+    height: 20px;
+    margin-left: 250px;
+  
+    background-color: white;
+}
+.unl{
+     margin-top: 50px;
+    font-family: 'Montserrat', sans-serif; /* Choose your desired font family */
+    font-size:30px; /* Adjust the font size as needed */
+    font-weight:800; /* Adjust the font weight as needed */
+    color: #000000; /* Adjust the color as needed */
+    text-align: center; /* Center align the blockquote */
+    padding: 20px; /* Add padding for better readability */
+    border-left: 25px solid #ffffff;
+    border-right: 25px solid #ffffff; /* Add a left border for emphasis */
+    animation: sewr ease-in 8s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+
+}
+@keyframes sewr {
+   
+  
+
+    0% {
+        color: rgba(255, 0, 0, 0.5);
+        text-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+    }
+
+    25% {
+        color: rgba(0, 255, 0, 0.7);
+        text-shadow: 0 0 15px rgba(0, 255, 0, 0.7);
+    }
+
+    50% {
+        color: rgba(0, 0, 255, 0.9);
+        text-shadow: 0 0 20px rgba(0, 0, 255, 0.9);
+    }
+
+    100% {
+        color: rgb(255, 255, 255);
+        text-shadow: 0 0 25px rgb(255, 255, 255);
+    }
+}
+
+
+.article{
+ 
+
+  padding:4px;
+  text-align: center;
+
+  border-radius:5px;
+}
+.image{
+  width:1370px;
+  height:670px;
+  border-radius:0px;
+  padding:px;
+  color:#efefef;
+  font-size:8rem;
+  &.right{
+    float:right;
+    margin-left:0px;
+  }
+ 
+}
+.content{
+  padding: 0 20px;
+  color:#000000;
+}
+
+  .headline{ text-align: center;
+    font-size: 30px;
+    font-family: "Cinzel", serif;
+
+    font-weight: 300px;
+}
+
+.group{
+  &:before,
+  &:after {
+    content: "";
+    display: table;
+  } 
+  &:after {
+    clear: both;
+  }
+}
+.article {
+  box-shadow: rgba(225, 185, 185, 0.56) 0px 22px 70px 4px;
+  background-color: white; /* Set background color */
+  border-radius: 5px; /* Add border radius for rounded corners */
+  margin-left: 10px;
+  padding: 40px; /* Add padding for content */
+  opacity: 10; /* Set initial opacity to 0 */
+
+}
+
+.headline {
+  font-family: "Cinzel", serif;
+
+  color: rgb(17, 176, 160); /* Set color of the headline to red */
+  font-weight: bold; /* Set font weight to bold */
+  font-size: 60px; /* Set font size for the headline */
+}
+
+.content p {
+
+  color: black; /* Set color of paragraph text to black */
+   font-family: "Sacramento", cursive;
+/* Set font family for paragraph text */
+  font-size: 37px; /* Set font size for paragraph text */
+  margin-top: 20px;
+  padding: 20px;
+  margin-bottom: 20px; /* Add margin bottom for spacing between paragraphs */
+}
+
+.content p em {
+  font-style: italic; /* Set font style to italic for emphasized text */
+}
+
+
+.dds{
+    width:  1370px;
+        height: 678px;
+        text-align: center;
+       margin-left: 30px;
+       border: 6px solid blue; 
+        border-radius: 6px ;box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+        
+        
+        margin-top: 300px;
+}
+#some-box {background:#fff;padding:40px;font-family:'Open Sans', sans-serif;}
+#some-box h1 {text-align:center;
+  text-decoration-color: white;
+text-shadow: 0 0 25px rgb(227, 100, 100);
+
+  margin-right: 50px;font-size: 130px; background-color: #0093E9;
+  
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100% );
+ width: 1376px;   font-family: "Yeseva One", serif;
+}
+#some-box h3 {font-size:26px;         font-family: "Cinzel", serif;
+color:red;
+font-size: 40px;
+font-weight: 300;
+
+}#some-box p{
+  color: black;
+  font-family: "Yeseva One", serif;
+}
+#some-box a {     font-family: 'Sonder Serif', serif;
+color:#000000;text-decoration:none;display:block;font-weight:bold;}
+#some-box a:hover {color:#fe0000;}
+
+article.row {width:100%;max-width:1370px;margin:0 auto;padding:45px 0;}
+article.row div {width:49.4%;display:inline-block;position:relative;border:1px solid white;}
+
+/**** For your reference ****/
+article.row {border:1px solid white;}
+article.row:hover {box-shadow: rgba(212, 10, 10, 0.25) 0px 50px 100px -20px, rgb(187, 1, 1) 0px 30px 60px -30px, rgba(161, 24, 24, 0.35) 0px -2px 6px 0px inset;}
+article.row div:hover 
+/* Your divs won't expand to contain absolute positioned images */
+
+
+#idea-one img, #idea-two img, #idea-three img {position:absolute;bottom:-20px;left:90px;}
+
+/* Here's the column repositioning magic. This media query says "Apply these styles only until page width is greater than 750px" 
+
+***To make this work, your media query has to be beneath your other styles to keep it from being overwritten later on by your general styles*** */
+@media(max-width:1370px){
+
+  /* This resizes the divs that contain your content to fill the width of the page so that they stack vertically */
+  article.row div {min-width:300px;width:90%;margin:0 5%;text-align:center;display:block;
+  color: #0093E9;}
+  
+  /* Center your text */
+	#some-other-box h3 {text-align:center;
+  }
+
+  /* Center your image */
+	 #idea-two img, #idea-three img {position:relative;margin:auto; border: 2px solid black;
+        margin-left: 20px;left:inherit;bottom:inherit; }
+        #idea-one img{
+            margin-left: 120px; position: relative
+            ;
+        }
+
+  /* This tells the browswer to stack the content vertically */
+  #idea-two {display:-webkit-box;display:-moz-box;display:box;-webkit-box-orient:vertical;-moz-box-orient:vertical;box-orient:vertical;}
+  
+  /* This tells the browswer to draw the first box (div:first-of-type) within our stacked content block (identified in the previous rule) in the second position ([...]box-ordinal-group:2;)
+  This gives us a nice arrangement of alternating text and images, and allows us two have a custom layout for smaller or wider screens.*/
+	#idea-two div:first-of-type {-webkit-box-ordinal-group:2;-moz-box-ordinal-group:2;box-ordinal-group:2;}
+}
+
+  /*
+If we had 3 boxes, we could draw them in order C, A, B by writing div:first-of-type{[...]group:2;} and div:nth-of-type(2) {[...]group:3;}, and so on.
+  */
+
+  #some-box h1{
+    box-shadow: 3px;
+    color: rgba(0, 0, 0, 0.89);
+  }
+  .aa {
+    height: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 170px;
+    color: white;
+    background-color: rgb(242, 242, 242);
+}
+
+.ab {
+    height: 20px;
+    margin-left: 40px;
+    margin-right: 40px;    
+    color: white;
+    background-color: rgb(242, 242, 242);
+}
+
+.aaa {
+    height: 15px;
+    margin-left: 60px;
+    margin-right: 60px;    color: white;
+    background-color: rgb(242, 242, 242);
+}
+
+.aaaa {
+    height: 10px;
+    margin-left: 80px;
+
+    margin-right: 80px;    color: white;
+    background-color: rgb(242, 242, 242);
+}
+
+.aaaaa {
+    height: 5px;
+    margin-left: 100px;
+    margin-right: 100px;    color: white;
+    background-color: rgb(242, 242, 242);
+}
+
+.aaaaaa {
+    height: 5px;
+    margin-left: 120px;
+    margin-right: 120px;    color: white;
+    background-color: rgb(242, 242, 242);
+}
+
+
+
+
+  body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  
+  background-color: rgb(22, 20, 24);
+  color: #eee;
+  user-select: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.nft{
+  user-select:none;
+  max-width: 750px;
+  margin-top: 10px;
+  margin-left: 50px;
+  padding: 10px;
+  position: absolute;
+  margin-left: 100px;
+  border: 5px solid #ffffff22;
+  background-color: #282c34;
+  background: linear-gradient(0deg, rgba(40,44,52,1) 0%, rgba(17,0,32,.5) 100%);
+  box-shadow: 10px 10px 70px 5px rgb(0, 0, 0);
+  border-radius: .7rem;
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(10px);
+  overflow: hidden;
+  transition: .5s all;
+  hr{
+    width: 70%;
+    border: none;
+    border-bottom: 2px solid #00ff4c55;
+  }
+  ins{
+    text-decoration: none;
+  }
+  .main{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    color: white;
+    padding: 2rem;
+    .tokenImage{
+      border-radius: .9rem;
+      max-width: 95%;
+      height: 300px;
+      object-fit: cover;
+    }
+    .description{
+      margin: .10rem ;
+      color: #ffe4e4;
+    }
+    .tokenInfo{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .price{
+        display: flex;
+        align-items: center;
+        color: #ffffff;
+        font-weight: 700;
+        ins{
+          margin-left: -.3rem;
+          margin-right: .5rem;
+        }
+      }
+      .duration{
+        display: flex;
+        align-items: center;
+        color: #a89ec9;
+        margin-right: .7rem;
+        ins{
+          margin: .5rem;
+          margin-bottom: .4rem;
+        }
+      }
+    }
+}
+  ::before{
+    position: fixed;
+    content: "s";
+    box-shadow: 0 0 100px 40px #ececec08;
+    top: -80%;
+    left: -100%;
+    transform: rotate(-50deg);
+    height: 100rem;
+    transition: .6s ;
+  }
+  &:hover{
+    border: 3px solid #ffffff44;
+    box-shadow: 0 7px 50px 10px #049027;
+    transform: scale(1.0);
+    filter: brightness(1.7);
+    ::before{
+      filter: brightness(.7);
+      top: -90%;
+      left: 500%;
+    }
+  }
+}
+
+.nt{
+  user-select:none;
+  max-width: 750px;
+  margin-top: 430px;
+  margin-left: 530px;
+  padding: 10px;
+  position: absolute;
+  border: 5px solid #ff000022;
+  background-color: #282c34;
+  background: linear-gradient(0deg, rgba(40,44,52,1) 0%, rgba(17,0,32,.5) 100%);
+  box-shadow: 10px 10px 70px 5px rgb(0, 0, 0);
+  border-radius: .7rem;
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(10px);
+  overflow: hidden;
+  transition: .5s all;
+  hr{
+    width: 70%;
+    border: none;
+    border-bottom: 2px solid rgb(255, 0, 0);
+  }
+  ins{
+    text-decoration: none;
+  }
+  .mn{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin-top: 40px;
+    color: white;
+    padding: 2rem;
+    .te{
+      border-radius: .9rem;
+      max-width: 590px;
+      height: 120px;
+
+    }
+    .dn{
+      margin: .10rem ;
+      margin-top: 20px;
+      color: #ffe4e4;
+    }
+    .to{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .price{
+        display: flex;
+        align-items: center;
+        color: #ffffff;
+        font-weight: 700;
+        ins{
+          margin-left: -.3rem;
+          margin-right: .5rem;
+        }
+      }
+      .dn{
+        display: flex;
+        align-items: center;
+        color: #ff0000;
+        margin-right: .7rem;
+        ins{
+          margin: .5rem;
+          margin-bottom: .4rem;
+        }
+      }
+    }
+}
+  ::before{
+    position: fixed;
+    content: "s";
+    box-shadow: 0 0 100px 40px #dedede08;
+    top: -80%;
+    left: -100%;
+    transform: rotate(-50deg);
+    height: 100rem;
+    transition: .6s ;
+  }
+  &:hover{
+    border: 3px solid #ffffff44;
+    box-shadow: 0 7px 50px 20px #901904;
+    transform: scale(1.0);
+    filter: brightness(1.7);
+    ::before{
+      filter: brightness(.7);
+      top: -90%;
+      left: 500%;
+    }
+  }
+}
+
+.bg{
+  
+  transform: translate(-20%, -50%);
+  height: 100px;
+  margin-left: 100px;
+  h1{
+    
+    font-size: 20rem;
+    filter: opacity(0.5);
+  }
+}
+.bgg{
+  
+  transform: translate(-20%, -50%);
+  margin-top: 430px;
+  
+  margin-left: 120px;
+  h1{
+    font-size: 20rem;
+    filter: opacity(0.5);
+  }
+}
+.bggg{
+  
+  transform: translate(-20%, -50%);
+  height: 100px;
+  margin-top: 770px;
+
+  margin-left: 100px;
+  h1{
+    
+    font-size: 20rem;
+    filter: opacity(0.5);
+  }
+}
+
+
+.nnt{
+  user-select:none;
+  max-width: 750px;
+  margin-top: 800px;
+  margin-left: 50px;
+  padding: 10px;
+  position: absolute;
+  margin-left: 100px;
+  border: 5px solid #ffffff22;
+  background-color: #282c34;
+  background: linear-gradient(0deg, rgba(40,44,52,1) 0%, rgba(17,0,32,.5) 100%);
+  box-shadow: 10px 10px 70px 5px rgb(0, 0, 0);
+  border-radius: .7rem;
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(10px);
+  overflow: hidden;
+  transition: .5s all;
+  hr{
+    width: 70%;
+    border: none;
+    border-bottom: 2px solid #bbc70fbf;
+  }
+  ins{
+    text-decoration: none;
+  }
+  .mmn{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    color: white;
+    padding: 2rem;
+    .tokenImage{
+      border-radius: .9rem;
+      max-width: 95%;
+      height: 300px;
+      object-fit: cover;
+    }
+    .ddn{
+      margin: .10rem ;
+      color: #ffe4e4;
+    }
+    .tto{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .ppe{
+        display: flex;
+        align-items: center;
+        color: #ffffff;
+        font-weight: 700;
+        ins{
+          margin-left: -.3rem;
+          margin-right: .5rem;
+        }
+      }
+      .ddn{
+        display: flex;
+        align-items: center;
+        color: #a89ec9;
+        margin-right: .7rem;
+        ins{
+          margin: .5rem;
+          margin-bottom: .4rem;
+        }
+      }
+    }
+}
+  ::before{
+    position: fixed;
+    content: "s";
+    box-shadow: 0 0 100px 40px #191b14;
+    top: -80%;
+    left: -100%;
+    transform: rotate(-50deg);
+    height: 100rem;
+    transition: .7s ;
+  }
+  &:hover{
+    border: 3px solid #4d2222c9;
+    box-shadow: 0 7px 50px 10px #a5c00c;
+    transform: scale(1.0);
+    filter: brightness(1.7);
+    ::before{
+      filter: brightness(.7);
+      top: -90%;
+      left: 500%;
+    }
+  }
+}
+.imageright{
+  margin-left: 20px;
+width: 600px;
+height: 400px;
+box-shadow: rgba(255, 255, 255, 0.4) -5px 5px, 
+            rgba(255, 255, 255, 0.3) -10px 10px, 
+            rgba(255, 255, 255, 0.2) -15px 15px, 
+            rgba(255, 255, 255, 0.1) -20px 20px, 
+            rgba(255, 255, 255, 0.05) -25px 25px;
+
+margin-top: 20px;
+border: 5px solid rgb(0, 0, 0);
+border-radius: 20px;
+
+}
+.imageeright{
+width: 600px;
+box-shadow: rgba(255, 255, 255, 0.4) 5px 5px, 
+            rgba(255, 255, 255, 0.3) 10px 10px, 
+            rgba(255, 255, 255, 0.2) 15px 15px, 
+            rgba(255, 255, 255, 0.1) 20px 20px, 
+            rgba(255, 255, 255, 0.05) 25px 25px;
+
+height: 400px;
+margin-top: 20px;
+justify-content: space-around;
+border: 5px solid rgb(0, 0, 0);
+border-radius: 20px;
+
+}
+.endmun{
+  height: 180px;
+  color: black;
+  box-shadow: #FFBBEC 0px 13px 27px -5px, rgba(255, 255, 255, 0.956) 0px 18px 86px -18px;
+  padding: 20px;
+  justify-content: center;
+  font-weight: 500;
+  width: 1330px;
+  margin-left: 48px;  font-family: "Cinzel", serif;
+
+ background-color: #A9C9FF;
+background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
+;
+  font-size: 40px;
+
+  border-radius: 20px;
+  margin-top: 70px;
+}
+</style>
+    
+</style>
+<body>
+    <div class="oi1">
+        <div class="a1">Where words fail, music speaks..</div> <hr>
+        <hr>
+        <hr>
+        <hr>
+        <hr>    
+        <div class="a2"><img src="br.jpeg" alt="" width="1370px" height="600px"> 
+        <hr class="e"> 
+        
+        <hr class="ee"> 
+         LYRI<span class="material-symbols-outlined">play_arrow </span>K
+             <hr class=" r">
+             <hr class="rr">
+            </div>
+
+    </div>
+    <br><br>
+    <div class="unl">"Unlock the symphony of the world through the harmony of a single website, where every note, genre, and rhythm converges to create a symphony of sound."</div>
+    <br><br><br><br><br>
+    <div class="bb">
+        <article class="article group">
+      
+          <section class="content">
+            <h2 class="headline">Welcome to the Music ♫ World</h2>
+            <p>"Let the music take you on a journey. 🎶 "stories behind the compositions, the emotions woven into Life's better with a soundtrack. Press play. 🎶</p>
+            
+          </section>
+        </article>
+        <img class="imageright" src="mid.jpeg"Image>
+        <img class="imageeright" src="midddf.jpeg"Image>
+      </div>
+      </div>
+<br>
+   <hr class="aa">
+    <hr class="ab">
+    <hr class="aaa">
+    <hr class="aaaa">
+    <hr class="aaaaa">
+    <hr class="aaaaaa">
+
+    <div id="some-box">
+        <h1>MUSIC UNIVERSE</h1>
+      
+     
+          <br><br><br>
+   
+          <article class="row" id="idea-two">
+              <div>
+                <h3>Get Stress Out in One Website</h3>
+                <p>Be careful not to let your text sections become too wordy, however; if you write too much your users may choose not to read the content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, delectus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam asperiores odio odit perspiciatis corporis dolorum tempora enim distinctio iure, id nobis sit nulla alias repellendus dignissimos sint corrupti amet delectus!</p>
+              
+              </div>
+              <div><img src="a3 (2).jpeg"height="250px" width="250px" ></div>
+          </article>
+      
+          <br><br><br>
+          <article class="row" id="idea-three">
+              <div><img src="a3 (3).jpeg" height="250px" width="250px"></div>
+              <div>
+                <h3>Discover New Music Trends</h3>
+                <p>Stay up-to-date with the latest music trends and explore new genres and artists. Our website provides a platform to discover emerging talents and cutting-edge sounds. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non eum laudanti Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus error repellat sint recusandae praesentium vero porro iure nostrum voluptates voluptas at consequatur, cumque aliquam temporibus enim animi inventore hic ipsum et ullam quisquam. Dolor quia corrupti recusandae laudantium praesentium quam?
+              </div>
+          </article>
+      
+      </div>
+
+      <div class="endmun">
+        "CLICK , PLAY, ENJOY. Let the music be your guide."👇
+      </div>    
+      <div class="wsd">
+
+        <a href="https://open.spotify.com/">
+            <div class="bg">
+            </div>
+            <div class="nft">
+              <div class='main'>
+                <img class='tokenImage' src="spotify (1).jpeg" alt="NFT" />
+                <h2>SPOTIFY</h2>
+                <p class='description'>Our Kibertopiks will give you nothing, waste your money Lorem ipsum    gnissimos, rem consequatur molestiae quo soluta architecto sunt labore tempore ut blanditiis nostrum sed dolorem? Eligendi dolore exercitationem earum dolorum consequatur aspernatur? on us.</p>
+                <div class='tokenInfo'>
+                  <div class="price">
+                    <ins>◘</ins>
+                    <p>EchoStream</p>
+                  </div>
+                  <div class="duration">
+                    <ins>◷..</ins>
+                    <p>Your playlist, your story, our melody.</p>
+                  </div>
+                </div>
+                <hr />
+                
+              </div>
+            </div>
+        </a>
+      
+    <a href="https://wynk.in/music">
+    
+        <div class="bgg">
+    
+        </div>
+         <div class="nt">
+            <div class='mn'>
+              <img class='te' src="wynk (2).png"alt="NFT" height="200px" width="1200px"/>
+              <h2>WYN'K #4269</h2>
+              <p class='dn'>Our Kibertopiks will give you nothing, waste your money on us Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus 
+                LOREMquisquam minima sunt mollitia voluptate ab, repellendus a facere id in architecto quos quis reprehenderit nobis, perspiciatis at, harum porro ducimus. Exercitationem minima corporis nihil, quam corrupti est excepturi neque tenetur..</p>
+              <div class='to'>
+                <div class="pe">
+                  <ins>◘</ins>
+                  <p>MelodyByte</p>
+                </div>
+                <div class="dn">
+                  <ins>◷</ins>
+                  <p> "Where every beat finds its listener."
+        </p>
+                </div>
+              </div>
+             
+              
+            </div>
+          </div>
+    </a>
+    
+    <a href="https://music.amazon.in/">
+      <div class="bggg">
+    
+      </div>
+       <div class="nnt">
+          <div class='mmn'>
+            <img class='tte' src="https://www.cnet.com/a/img/resize/b3dbc9a956a17c59ad5f58046549a217d5986065/hub/2022/06/30/14a28420-bd3d-4d38-b413-588d4937131b/amazon-music-unlimited-logo.png?auto=webp&fit=crop&height=675&width=1200"alt="NFT" height="300px" width="650px"/>
+            <h2>AMAZON MUSIC</h2>
+            <p class='ddn'>Our Kibertopiks will give you nothing, waste your money on us Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus a Lorem ipsum dolor sit, amet consectetur aatum ipsa pariatur totam ullam, volorem23
+        Lorem ipsum dolor sit amet consectetur adipisiti est excepturi neque tenetur..</p>
+            <div class='tto'>
+              <div class="ppe">
+                <ins>◘</ins>
+                <p>TuneTrove</p>
+              </div>
+              <div class="ddn">
+                <ins>◷</ins>
+                <p> "Let music be the language of your soul"
+      </p>
+              </div>
+            </div>
+            
+            
+          </div>
+        </div>
+       
+    </a>
+    
+    </div>
+
+
+    <div>
+      <hr class="end">
+    </div>
+    
+</body>
+</html>
+
+<!-- FINALLY DID IT  -------> FOR US 
